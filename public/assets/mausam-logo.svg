@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background transparent -->
+  <g>
+    <!-- Top Blue Head & Antennae -->
+    <!-- Antennae -->
+    <path d="M 185 105 C 160 80, 140 45, 175 42 C 205 38, 205 75, 215 102 Z" fill="#0088cc" />
+    <path d="M 327 105 C 352 80, 372 45, 337 42 C 307 38, 307 75, 297 102 Z" fill="#0088cc" />
+    
+    <!-- Top Dome Head -->
+    <path d="M 80 185 C 80 185, 130 65, 256 65 C 382 65, 432 185, 432 185 Z" fill="#0088cc" />
+    
+    <!-- Left Wing (Olive Green with Lightning) -->
+    <path d="M 70 205 C 68 335, 160 455, 246 458 L 246 205 Z" fill="#9dbd28" />
+    
+    <!-- Right Wing (Olive Green with Snowflake & Droplet) -->
+    <path d="M 266 205 L 266 458 C 352 455, 444 335, 442 205 Z" fill="#9dbd28" />
+
+    <!-- Separator Gap Lines (White) -->
+    <!-- Curved Arch under Blue Head -->
+    <path d="M 66 195 Q 256 168 446 195" fill="none" stroke="#ffffff" stroke-width="16" stroke-linecap="round" />
+    <!-- Vertical Center Divider -->
+    <line x1="256" y1="180" x2="256" y2="465" stroke="#ffffff" stroke-width="16" stroke-linecap="round" />
+
+    <!-- Left Wing: White Lightning Bolt -->
+    <polygon points="198,225 120,318 178,318 135,378 214,282 158,282" fill="#ffffff" />
+
+    <!-- Right Wing Top: White Snowflake -->
+    <g transform="translate(354, 276)" stroke="#ffffff" stroke-width="9" stroke-linecap="round">
+      <!-- 6 radiating branches -->
+      <!-- branch 1: 90 deg (up) -->
+      <line x1="0" y1="-44" x2="0" y2="44" />
+      <path d="M -13 -28 L 0 -18 L 13 -28" fill="none" />
+      <path d="M -13 28 L 0 18 L 13 28" fill="none" />
+      
+      <!-- branch 2: 30 deg -->
+      <line x1="-38" y1="-22" x2="38" y2="22" />
+      <path d="M -30 -6 L -19 -11 L -14 -24" fill="none" />
+      <path d="M 30 6 L 19 11 L 14 24" fill="none" />
+      
+      <!-- branch 3: 150 deg -->
+      <line x1="38" y1="-22" x2="-38" y2="22" />
+      <path d="M 14 -24 L 19 -11 L 30 -6" fill="none" />
+      <path d="M -14 24 L -19 11 L -30 6" fill="none" />
+      
+      <!-- Center node -->
+      <circle cx="0" cy="0" r="4" fill="#ffffff" />
+    </g>
+
+    <!-- Right Wing Bottom: White Water Droplet -->
+    <path d="M 354 345 C 354 345, 326 385, 326 405 C 326 422, 338 434, 354 434 C 370 434, 382 422, 382 405 C 382 385, 354 345, 354 345 Z" fill="#ffffff" />
+  </g>
+</svg>

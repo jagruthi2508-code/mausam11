@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Parent 1 (Left / Dark Charcoal) -->
+  <!-- Head -->
+  <circle cx="225" cy="150" r="44" fill="#3f474e" />
+  <!-- Left Wrapping Body -->
+  <path d="M 278 200 C 230 200, 140 225, 128 310 C 115 390, 190 460, 242 470 C 185 440, 150 375, 172 305 C 190 250, 240 236, 278 236 Z" fill="#3f474e" />
+
+  <!-- Parent 2 (Right / Medium Slate) -->
+  <!-- Head -->
+  <circle cx="305" cy="186" r="32" fill="#717a82" />
+  <!-- Right Wrapping Body -->
+  <path d="M 285 240 C 330 240, 385 270, 385 345 C 385 410, 330 468, 220 488 C 300 465, 345 420, 342 360 C 340 310, 310 270, 280 268 Z" fill="#717a82" />
+
+  <!-- Inner Cradle & Children -->
+  <!-- Child 1 Head -->
+  <circle cx="236" cy="272" r="28" fill="#656e75" />
+  <!-- Child 2 Head -->
+  <circle cx="298" cy="272" r="26" fill="#656e75" />
+  <!-- Swaddle / Crescent Embrace -->
+  <path d="M 184 316 C 184 316, 240 380, 340 286 C 332 346, 252 368, 184 316 Z" fill="#656e75" />
+</svg>

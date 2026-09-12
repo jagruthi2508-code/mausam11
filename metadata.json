@@ -1,0 +1,7 @@
+{
+  "name": "Mausam - Weather & Journey Assistant",
+  "description": "Personalized weather, journey risk monitoring, hourly and weekly forecasts, nearby safe place finder, and voice assistant.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

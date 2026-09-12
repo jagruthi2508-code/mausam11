@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <g fill="#111827">
+    <!-- Left Half: Stylized Flame -->
+    <path d="M 230 108 C 215 150, 240 185, 235 228 C 230 265, 190 285, 185 305 C 178 335, 202 360, 206 395 C 195 385, 172 345, 178 300 C 182 270, 218 240, 222 205 C 226 170, 195 145, 230 108 Z" />
+    <path d="M 235 105 C 210 160, 242 205, 230 250 C 220 290, 160 315, 140 355 C 120 395, 138 440, 190 470 C 130 450, 105 380, 128 320 C 150 260, 218 220, 228 150 C 232 135, 230 115, 235 105 Z" />
+    
+    <!-- Center Spine & Right Half: Geometric Snowflake -->
+    <line x1="256" y1="160" x2="256" y2="445" stroke="#111827" stroke-width="16" stroke-linecap="round" />
+    
+    <!-- Snowflake branch 1 (Top-diagonal: ~40 deg) -->
+    <g stroke="#111827" stroke-width="16" stroke-linecap="round" stroke-linejoin="miter">
+      <line x1="256" y1="260" x2="350" y2="185" />
+      <!-- Upper spur 1 -->
+      <polyline points="295,190 325,180 340,210" fill="none" />
+      <polyline points="265,225 295,215 310,245" fill="none" />
+      
+      <!-- Snowflake branch 2 (Middle horizontal) -->
+      <line x1="256" y1="300" x2="385" y2="300" />
+      <!-- Middle spur -->
+      <polyline points="350,265 370,300 350,335" fill="none" />
+      <polyline points="305,265 325,300 305,335" fill="none" />
+
+      <!-- Snowflake branch 3 (Bottom-diagonal: ~-40 deg) -->
+      <line x1="256" y1="340" x2="350" y2="415" />
+      <!-- Bottom spur -->
+      <polyline points="295,410 325,420 340,390" fill="none" />
+      <polyline points="265,375 295,385 310,355" fill="none" />
+    </g>
+  </g>
+</svg>
